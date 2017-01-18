@@ -6,7 +6,7 @@ import com.bluelinelabs.logansquare.annotation.JsonObject;
 import java.util.Date;
 
 @JsonObject
-public class SimpleGenericModelWithExtends<T extends String> {
+public class SimpleGenericModelWithExtends<T> {
 
     @JsonField
     public String string;
